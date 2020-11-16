@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+  background-image: url('https://i.pinimg.com/originals/16/22/09/162209350090430221514e9bf92b2cc9.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #f8f8ff;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  text-align: center;
+  text-shadow: 3px 3px 6px #000;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+#title {
+  font-size: 3.5em;
+  margin-bottom: 0px;
+}
+
+#description {
+  font-size: 1.1em;
+}
+
+#survey-form {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  width: 80%;
+  min-width: 300px;
+  max-width: 600px;
+  margin-top: 4em;
+  background-color: #000080;
+  padding-top: 1.2em;
+}
+
+#textarea-label {
+  margin-top: 2em;
+  margin-bottom: 0.4em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+#text-area{
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+#submit {
+  color: #f8f8ff;
+  background-color: 	#4169E1;
+  cursor: pointer;
+  margin-top: 1.8em;
+}
+
+#submit:hover {
+  background-color: #1E90FF;
+}
+
+.field-label {
+  font-size: 1.2em;
+  color: #f8f8ff;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.field-input {
+  margin-top: 0.6em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: 2.5em;
+  border-radius: 5px;
+  border-style: none;
+}
+
